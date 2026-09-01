@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{e1ed014f-d2f6-4158-9218-384870736a15}</ProjectGuid>
+    <RootNamespace>sfml1</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>курсовая</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>D:\my work and studies\C++\c++ sfml\SFML-2.6.1-windows-vc17-64-bit\SFML-2.6.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>D:\my work and studies\C++\c++ sfml\SFML-2.6.1-windows-vc17-64-bit\SFML-2.6.1\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-graphics-d.lib;sfml-window-d.lib;sfml-audio-d.lib;sfml-system-d.lib;sfml-network-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="CardSelectionState.cpp" />
+    <ClCompile Include="Database.cpp" />
+    <ClCompile Include="DuoGame.cpp" />
+    <ClCompile Include="GameApp.cpp" />
+    <ClCompile Include="GameMenu.cpp" />
+    <ClCompile Include="GameplayState.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="sqlite3.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="game_data.db" />
+    <None Include="memory_game.db" />
+    <None Include="openal32.dll" />
+    <None Include="resources\music\menu.ogg" />
+    <None Include="sfml-audio-2.dll" />
+    <None Include="sfml-audio-d-2.dll" />
+    <None Include="sfml-graphics-2.dll" />
+    <None Include="sfml-graphics-d-2.dll" />
+    <None Include="sfml-network-2.dll" />
+    <None Include="sfml-network-d-2.dll" />
+    <None Include="sfml-system-2.dll" />
+    <None Include="sfml-system-d-2.dll" />
+    <None Include="sfml-window-2.dll" />
+    <None Include="sfml-window-d-2.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="..\x64\Debug\resources\Roboto\Roboto.ttf" />
+    <Font Include="..\x64\Debug\resources\Roboto\Roboto-VariableFont_wdth,wght.ttf" />
+    <Font Include="resources\Roboto\Roboto.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CardSelectionState.h" />
+    <ClInclude Include="Database.h" />
+    <ClInclude Include="DuoGame.h" />
+    <ClInclude Include="GameApp.h" />
+    <ClInclude Include="GameMenu.h" />
+    <ClInclude Include="GameplayState.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="sqlite3.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="img\1.jpg" />
+    <Image Include="img\animal\1.jpg" />
+    <Image Include="img\animal\10.jpg" />
+    <Image Include="img\animal\11.jpg" />
+    <Image Include="img\animal\12.jpg" />
+    <Image Include="img\animal\13.jpg" />
+    <Image Include="img\animal\14.jpg" />
+    <Image Include="img\animal\15.jpg" />
+    <Image Include="img\animal\16.jpg" />
+    <Image Include="img\animal\17.jpg" />
+    <Image Include="img\animal\2.jpg" />
+    <Image Include="img\animal\3.jpg" />
+    <Image Include="img\animal\4.jpg" />
+    <Image Include="img\animal\5.jpg" />
+    <Image Include="img\animal\6.jpg" />
+    <Image Include="img\animal\7.jpg" />
+    <Image Include="img\animal\8.jpg" />
+    <Image Include="img\animal\9.jpg" />
+    <Image Include="img\Berry\1.jpg" />
+    <Image Include="img\Berry\10.jpg" />
+    <Image Include="img\Berry\11.jpg" />
+    <Image Include="img\Berry\12.jpg" />
+    <Image Include="img\Berry\13.jpg" />
+    <Image Include="img\Berry\14.jpg" />
+    <Image Include="img\Berry\15.jpg" />
+    <Image Include="img\Berry\16.jpg" />
+    <Image Include="img\Berry\17.jpg" />
+    <Image Include="img\Berry\2.jpg" />
+    <Image Include="img\Berry\3.jpg" />
+    <Image Include="img\Berry\4.jpg" />
+    <Image Include="img\Berry\5.jpg" />
+    <Image Include="img\Berry\6.jpg" />
+    <Image Include="img\Berry\7.jpg" />
+    <Image Include="img\Berry\8.jpg" />
+    <Image Include="img\Berry\9.jpg" />
+    <Image Include="img\cars\1.jpg" />
+    <Image Include="img\cars\10.jpg" />
+    <Image Include="img\cars\11.jpg" />
+    <Image Include="img\cars\12.jpg" />
+    <Image Include="img\cars\13.jpg" />
+    <Image Include="img\cars\14.jpg" />
+    <Image Include="img\cars\15.jpg" />
+    <Image Include="img\cars\16.jpg" />
+    <Image Include="img\cars\17.jpg" />
+    <Image Include="img\cars\2.jpg" />
+    <Image Include="img\cars\3.jpg" />
+    <Image Include="img\cars\4.jpg" />
+    <Image Include="img\cars\5.jpg" />
+    <Image Include="img\cars\6.jpg" />
+    <Image Include="img\cars\7.jpg" />
+    <Image Include="img\cars\8.jpg" />
+    <Image Include="img\cars\9.jpg" />
+    <Image Include="img\cartoons\1.jpg" />
+    <Image Include="img\cartoons\10.jpg" />
+    <Image Include="img\cartoons\11.jpg" />
+    <Image Include="img\cartoons\12.jpg" />
+    <Image Include="img\cartoons\13.jpg" />
+    <Image Include="img\cartoons\14.jpg" />
+    <Image Include="img\cartoons\15.jpg" />
+    <Image Include="img\cartoons\16.jpg" />
+    <Image Include="img\cartoons\17.jpg" />
+    <Image Include="img\cartoons\2.jpg" />
+    <Image Include="img\cartoons\3.jpg" />
+    <Image Include="img\cartoons\4.jpg" />
+    <Image Include="img\cartoons\5.jpg" />
+    <Image Include="img\cartoons\6.jpg" />
+    <Image Include="img\cartoons\7.jpg" />
+    <Image Include="img\cartoons\8.jpg" />
+    <Image Include="img\cartoons\9.jpg" />
+    <Image Include="img\menu1.jpg" />
+    <Image Include="img\menu3.jpg" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

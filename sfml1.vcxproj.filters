@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{e6e08eb5-48dc-4817-96e8-c32a1c117175}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMenu.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="GameplayState.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="CardSelectionState.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="GameApp.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="sqlite3.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Database.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="DuoGame.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="openal32.dll" />
+    <None Include="sfml-audio-2.dll" />
+    <None Include="sfml-audio-d-2.dll" />
+    <None Include="sfml-graphics-2.dll" />
+    <None Include="sfml-graphics-d-2.dll" />
+    <None Include="sfml-network-2.dll" />
+    <None Include="sfml-network-d-2.dll" />
+    <None Include="sfml-system-2.dll" />
+    <None Include="sfml-system-d-2.dll" />
+    <None Include="sfml-window-2.dll" />
+    <None Include="sfml-window-d-2.dll" />
+    <None Include="resources\music\menu.ogg" />
+    <None Include="game_data.db" />
+    <None Include="memory_game.db" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="..\x64\Debug\resources\Roboto\Roboto.ttf">
+      <Filter>resources</Filter>
+    </Font>
+    <Font Include="..\x64\Debug\resources\Roboto\Roboto-VariableFont_wdth,wght.ttf">
+      <Filter>resources</Filter>
+    </Font>
+    <Font Include="resources\Roboto\Roboto.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameMenu.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="GameplayState.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="CardSelectionState.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="GameApp.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="sqlite3.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Database.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="DuoGame.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="img\1.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\menu1.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\menu3.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\cartoons\1.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\cartoons\2.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\cartoons\3.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\cartoons\4.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\cartoons\5.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\cartoons\6.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\cartoons\7.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\cartoons\8.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\cartoons\9.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\cartoons\10.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\cartoons\11.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\cartoons\12.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\cartoons\13.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\cartoons\14.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\cartoons\15.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\cartoons\16.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\cartoons\17.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\cars\1.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\cars\2.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\cars\3.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\cars\4.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\cars\5.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\cars\6.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\cars\7.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\cars\8.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\cars\9.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\cars\10.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\cars\11.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\cars\12.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\cars\13.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\cars\14.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\cars\15.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\cars\16.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\cars\17.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\Berry\1.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\Berry\2.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\Berry\3.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\Berry\4.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\Berry\5.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\Berry\6.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\Berry\7.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\Berry\8.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\Berry\9.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\Berry\10.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\Berry\11.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\Berry\12.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\Berry\13.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\Berry\14.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\Berry\15.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\Berry\16.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\Berry\17.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\animal\1.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\animal\2.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\animal\3.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\animal\4.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\animal\5.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\animal\6.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\animal\7.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\animal\8.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\animal\9.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\animal\10.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\animal\11.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\animal\12.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\animal\13.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\animal\14.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\animal\15.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\animal\16.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="img\animal\17.jpg">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
